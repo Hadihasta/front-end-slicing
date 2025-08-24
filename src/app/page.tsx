@@ -9,6 +9,8 @@ import Soal_6 from './component/Soal_6'
 import Soal_7 from './component/Soal_7'
 import Soal_8 from './component/Soal_8'
 import Soal_9 from './component/Soal_9'
+import Soal_10 from './component/Soal_10'
+import Soal_11 from './component/Soal_11'
 
 export default function Home() {
   return (
@@ -43,6 +45,11 @@ export default function Home() {
         <Soal_8 />
         <div className="h-px w-full  mt-3 bg-white"></div>
         <Soal_9 />
+        <div className="h-px w-full  mt-3 bg-white"></div>
+        <Soal_10/>
+        <div className="h-px w-full  mt-3 bg-white"></div>
+        <Soal_11/>
+        <div className="h-px w-full  mt-3 bg-white"></div>
       </div>
 
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center"></footer>
